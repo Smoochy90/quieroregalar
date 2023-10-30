@@ -1,0 +1,93 @@
+@font-face {
+    font-family:"Nunito" ;
+    src: url("../recursos/fonts/nunito-variablefont_wght.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Nunito', sans-serif;
+}
+
+h1,h2,h3,h4,h5 {
+
+    font-family:"Nunito Bold";
+    color: rgb(224, 174, 247);
+
+}
+
+header{
+    background-color:rgb(223, 223, 255);
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+header img {
+    width: 60px;
+}
+
+header ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+header .menu a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(91, 24, 146);
+    font-weight:400px;
+    padding: 20px;
+    
+}
+
+.foto-principal {
+width: 100%;
+height: 400px;
+object-fit:cover;
+position: center;
+
+}
+
+.titulo-principal{
+    color: rgb(165, 108, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.foto-seccion{
+    width: 400px;
+    height: 200px;
+    object-fit:cover;
+    position: left;
+    background-color: rgb(68, 9, 60);
+    
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.logo-footer{
+
+    width: 60px;
+
+}
+
+
+
